@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: no-args-constructor-lombok
+  serde:
+    included-introspection-packages:
+      - io.micronaut
+      - com.example.commands
